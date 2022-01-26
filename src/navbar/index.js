@@ -1,5 +1,9 @@
 import React from 'react';
 import GenerateNewArray from './generateNewArray';
+import ArrSize from './arrSize';
+import SpeedOfSorting from './speedOfSorting';
+import Algorithm from './algorithm';
+import Start from './start';
 function NavBar(){
     return (
         <div style={{
@@ -16,6 +20,10 @@ function NavBar(){
             fontFamily: 'sans-serif'
         }}>
             <GenerateNewArray/>
+            <ArrSize/>
+            <SpeedOfSorting/>
+            <Algorithm/>
+            <Start/>
         </div>
     );
 }

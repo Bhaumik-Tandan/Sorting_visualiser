@@ -1,9 +1,11 @@
 import NavBar from "./navbar";
 import Provider from "./context/provider";
+import Visualizer from "./visualizer";
 function App() {
   return (
     <Provider>
-      <NavBar></NavBar>
+      <NavBar/>
+      <Visualizer/>
     </Provider>
   );
 }

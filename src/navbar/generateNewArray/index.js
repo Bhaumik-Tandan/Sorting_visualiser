@@ -1,17 +1,17 @@
+import {useContext} from 'react';
+import Context from '../../context/context';
+import {generateArray} from '../../utility/generateArray';
 function GenerateNewArray()
 {
+    const { setArr,arrSize } = useContext(Context);
     return (
         <div
             style={{
-                //make it click able
+                //make it clickable
                 cursor: 'pointer',
             }}
         onClick={() => {
-            const array = [];
-            for (let i = 0; i < 10; i++) {
-                array.push(Math.floor(Math.random() * 100));
-            }
-            console.log(array);
+            setArr(generateArray(arrSize));
         }}>
             Generate New Array
         </div>
