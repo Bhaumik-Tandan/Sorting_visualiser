@@ -7,7 +7,7 @@ const Provider = ({ children }) => {
     const [arrSize, setArrSize] = useState(50);
     const [speed, setSpeed] = useState(50);
     const [colorArr, setColorArr] = useState([]);
-    const [algorithm, setAlgorithm] = useState("mergeSort");
+    const [algorithm, setAlgorithm] = useState("bubbleSort");
     const [start, setStart] = useState(false);
 
     useEffect(() => {
