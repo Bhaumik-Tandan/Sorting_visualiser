@@ -4,8 +4,8 @@ import Visualizer from "./visualizer";
 function App() {
   return (
     <Provider>
-      <NavBar/>
-      <Visualizer/>
+      <NavBar />
+      <Visualizer />
     </Provider>
   );
 }
