@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/Sorting_visualiser/static/js/main.e9060260.js",
+    "index.html": "/Sorting_visualiser/index.html",
+    "main.e9060260.js.map": "/Sorting_visualiser/static/js/main.e9060260.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e9060260.js"
+  ]
+}
